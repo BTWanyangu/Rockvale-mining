@@ -1,0 +1,13 @@
+{
+  "clean_install_command": "npm ci --include=dev --no-audit --no-fund",
+  "clean_install": "PASS",
+  "clean_checks_command": "npm run check",
+  "clean_checks": "PASS",
+  "production_files_compared": 196,
+  "production_files_byte_identical": true,
+  "application_source_files_compared": 199,
+  "source_byte_identical": true,
+  "included_gallery_images": 65,
+  "zip_integrity": "PASS",
+  "status": "PASS"
+}

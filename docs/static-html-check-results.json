@@ -1,0 +1,230 @@
+{
+  "method": "Python standard-library HTML parser; structural checks",
+  "pages": [
+    {
+      "path": "/",
+      "images": 11,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/about",
+      "images": 6,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/services",
+      "images": 5,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/services/exploration-and-development",
+      "images": 10,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/services/mining-and-processing",
+      "images": 9,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/services/trading-and-distribution",
+      "images": 5,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/services/recycling-and-recovery",
+      "images": 5,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/operations",
+      "images": 7,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/commodities",
+      "images": 13,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/commodities/copper",
+      "images": 1,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/commodities/cobalt",
+      "images": 1,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/commodities/nickel",
+      "images": 1,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/commodities/zinc-and-lead",
+      "images": 1,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/commodities/ferroalloys",
+      "images": 1,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/commodities/precious-metals-and-gemstones",
+      "images": 1,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/commodities/energy-and-coal",
+      "images": 1,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/sustainability",
+      "images": 9,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/governance",
+      "images": 0,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/gallery",
+      "images": 65,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/insights",
+      "images": 3,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/insights/why-copper-matters",
+      "images": 1,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/insights/from-mine-to-market",
+      "images": 1,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/insights/a-second-life-for-materials",
+      "images": 1,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/partners",
+      "images": 1,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/contact",
+      "images": 0,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/privacy",
+      "images": 0,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/terms",
+      "images": 0,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    },
+    {
+      "path": "/404",
+      "images": 0,
+      "duplicate_ids": [],
+      "alt_and_dimensions": "PASS",
+      "branding": "PASS",
+      "removed_strip_and_content_notes": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

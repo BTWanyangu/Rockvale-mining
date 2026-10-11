@@ -1,0 +1,16 @@
+{
+  "method": "Production-file byte counts and measured gzip encoding",
+  "entry_assets": [
+    {
+      "file": "assets/index-BBxO06av.js",
+      "bytes": 495040,
+      "gzip_bytes": 149171
+    },
+    {
+      "file": "assets/index-CYKznUw4.css",
+      "bytes": 48143,
+      "gzip_bytes": 10947
+    }
+  ],
+  "status": "MEASURED"
+}

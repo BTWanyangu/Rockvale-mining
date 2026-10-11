@@ -1,0 +1,9 @@
+{
+  "publicRoutes": 27,
+  "nestedRefresh": "PASS",
+  "unknownRouteStatus": 404,
+  "deliveryWithoutCredentials": "DISABLED (503)",
+  "securityHeaders": "PASS",
+  "staticAssets": "PASS",
+  "status": "PASS"
+}

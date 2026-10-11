@@ -1,0 +1,27 @@
+services:
+  website:
+    build:
+      context: .
+      args:
+        VITE_SITE_URL: ${VITE_SITE_URL:-}
+        VITE_PUBLIC_INDEXING: ${VITE_PUBLIC_INDEXING:-false}
+        VITE_CONTACT_EMAIL: ${VITE_CONTACT_EMAIL:-}
+        VITE_CONTACT_PHONE: ${VITE_CONTACT_PHONE:-}
+        VITE_CONTACT_ADDRESS: ${VITE_CONTACT_ADDRESS:-}
+        VITE_CONTACT_HOURS: ${VITE_CONTACT_HOURS:-}
+        VITE_API_BASE: ${VITE_API_BASE:-}
+    env_file: .env
+    environment:
+      PORT: 8080
+      NODE_ENV: production
+    ports:
+      - "127.0.0.1:8080:8080"
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true

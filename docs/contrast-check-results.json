@@ -1,0 +1,69 @@
+{
+  "method": "WCAG relative-luminance formula for specified solid colours; does not assess text over photography",
+  "pairs": [
+    {
+      "use": "Body text",
+      "foreground": "#20272d",
+      "background": "#ffffff",
+      "contrast_ratio": 15.11,
+      "normal_text_aa": true
+    },
+    {
+      "use": "Secondary text",
+      "foreground": "#63696d",
+      "background": "#ffffff",
+      "contrast_ratio": 5.57,
+      "normal_text_aa": true
+    },
+    {
+      "use": "Secondary text on mist",
+      "foreground": "#63696d",
+      "background": "#f2f4f4",
+      "contrast_ratio": 5.04,
+      "normal_text_aa": true
+    },
+    {
+      "use": "Gold labels",
+      "foreground": "#795022",
+      "background": "#ffffff",
+      "contrast_ratio": 7.04,
+      "normal_text_aa": true
+    },
+    {
+      "use": "Gold labels on mist",
+      "foreground": "#795022",
+      "background": "#f2f4f4",
+      "contrast_ratio": 6.38,
+      "normal_text_aa": true
+    },
+    {
+      "use": "Gold button",
+      "foreground": "#182027",
+      "background": "#e1b16e",
+      "contrast_ratio": 8.41,
+      "normal_text_aa": true
+    },
+    {
+      "use": "Dark button",
+      "foreground": "#ffffff",
+      "background": "#20272d",
+      "contrast_ratio": 15.11,
+      "normal_text_aa": true
+    },
+    {
+      "use": "Mineral card text",
+      "foreground": "#20272d",
+      "background": "#ffffff",
+      "contrast_ratio": 15.11,
+      "normal_text_aa": true
+    },
+    {
+      "use": "Mineral guide labels",
+      "foreground": "#795022",
+      "background": "#ffffff",
+      "contrast_ratio": 7.04,
+      "normal_text_aa": true
+    }
+  ],
+  "status": "PASS"
+}
