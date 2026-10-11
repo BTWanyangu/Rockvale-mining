@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import BackToTop from "../ui/BackToTop";
+import FloatingWhatsApp from "../ui/FloatingWhatsApp";
 import { useLocation } from "react-router-dom";
 export default function PageShell({ children }: { children: ReactNode }) {
   const { pathname } = useLocation();
@@ -16,6 +17,7 @@ export default function PageShell({ children }: { children: ReactNode }) {
       </main>
       <Footer />
       <BackToTop />
+      <FloatingWhatsApp />
     </div>
   );
 }
