@@ -135,59 +135,199 @@ export const services: Service[] = [
   {
     slug: "trading-and-distribution",
     shortTitle: "Trading & distribution",
-    title: "Connect supply with real demand.",
+    title: "The right material. A coordinated journey.",
     number: "03",
     image: 44,
     group: "Deliver",
     intro:
-      "A workable commodity relationship brings product quality, commercial terms and the physical supply chain into alignment.",
+      "RockValle connects commodity enquiries with freight, storage and distribution planning, bringing the product and its journey into one conversation.",
     overview:
-      "Commodity trading connects producers and suppliers with the industries that need materials. The value of that connection depends on understanding the product, checking the counterparty and agreeing how quality, custody and delivery will be managed.",
+      "Explore gold, diamonds and copper cathodes alongside air, road and ocean freight, cargo handling, warehousing and delivery coordination. Start with the material, the route and the result your business needs.",
     sections: [
       {
-        title: "Define the product before the transaction",
+        title: "Gold trading",
         paragraphs: [
-          "A commodity name is only the start of a specification. Physical form, composition, grade, moisture, packaging and quantities can all matter to a buyer. Requirements vary across applications, so a clear technical description reduces uncertainty at the beginning of a discussion.",
-          "Representative analysis and agreed inspection arrangements help establish a common basis for negotiations. Pricing mechanisms, tolerance ranges and rejection criteria need to be understood alongside the quoted quantity. A transparent specification supports a more useful comparison between supply options.",
+          "Gold enquiries begin with a precise description of the material: bars, nuggets or dust, together with weight, origin and available assay results. Product form and verified composition provide the basis for comparing an offer with a buyer’s requirements.",
+          "Bring the proposed quantity, inspection location and delivery point into the discussion early. Sampling, acceptance, custody and settlement arrangements should describe the same consignment from first inspection through final handover.",
         ],
         points: [
-          "Commodity, form and specification",
-          "Available quantity, supply schedule and origin",
-          "Sampling, analysis and inspection arrangements",
+          "Product form, weight and available assay",
+          "Origin and supporting ownership records",
+          "Inspection, secure handling and delivery arrangements",
         ],
       },
       {
-        title: "Understand the physical route",
+        title: "Diamond trading",
         paragraphs: [
-          "Road, rail, port and storage arrangements connect a material’s origin with its destination. Loading conditions, handling restrictions and packaging affect the practical route. Timing should reflect real access, capacity and documentation requirements.",
-          "The handover of custody and commercial responsibility should be agreed in the contract. Applicable transport, trade and customs requirements depend on the product and the route. Parties should confirm the relevant rules with qualified advisers rather than relying on a general description.",
+          "A diamond brief distinguishes rough from polished stones and records the characteristics relevant to the buyer. Carat weight, measurements, grading information and individual or parcel identification help make the discussion specific.",
+          "Use available laboratory reports, origin documents and clear photographs to support an enquiry. Agree how the material will be examined, how a parcel will remain identifiable and where responsibility passes during delivery.",
         ],
         points: [
-          "Origin, destination and delivery point",
-          "Handling, storage and transport requirements",
-          "Documentation, custody and agreed commercial responsibilities",
+          "Rough or polished material and parcel size",
+          "Identification, grading reports and provenance",
+          "Viewing, acceptance and documented custody",
         ],
       },
       {
-        title: "Build a relationship on reliable information",
+        title: "Copper cathodes trading",
         paragraphs: [
-          "Counterparty checks, transparent ownership information and a clear understanding of material origin support responsible trade. They also help identify inconsistencies before either party commits to a transaction. Commercial discussions should define what evidence is needed and who will provide it.",
-          "A supply relationship benefits from accurate records and timely communication. Changes to quantity, quality or delivery should be visible early enough for the parties to respond. No availability, price or shipment commitment is made by the general commodity information on this website.",
+          "Copper cathode enquiries connect the required metal specification with a practical supply schedule. State the grade, purity, quantity and delivery location, together with any producer or brand requirements for the intended application.",
+          "For a supply proposal, include recent analysis, origin details, bundle information and the loading point. Align inspection and weighing arrangements with the specification so the buyer and supplier work from a shared acceptance record.",
+        ],
+        points: [
+          "Required composition and analytical evidence",
+          "Available tonnage, bundle weights and supply schedule",
+          "Origin, loading location and receiving requirements",
         ],
       },
       {
-        title: "Bring a clear sourcing or buying brief",
+        title: "Air freight",
         paragraphs: [
-          "For a supply enquiry, describe the material, origin, quantity and available analysis. For a buying enquiry, describe the required specification, destination and schedule. Both sides benefit when the commercial objectives are stated alongside the physical requirements.",
-          "RockValle connects the trading conversation with the physical requirements of supply. A focused brief brings specification, volume, origin, destination and timing together.",
+          "Air freight planning starts with the shipment’s ready date and the receiving deadline. The packaged dimensions, gross weight, number of pieces and handling needs help define the collection and airport movements.",
+          "Bring the complete journey into the brief: collection address, departure and arrival airports, clearance responsibilities and final delivery point. A clear handover plan keeps the air movement connected with the transport at either end.",
+        ],
+        points: [
+          "Ready date, required arrival and destination",
+          "Packaged dimensions, weight and handling requirements",
+          "Airport-to-airport or door delivery scope",
+        ],
+      },
+      {
+        title: "Road freight",
+        paragraphs: [
+          "Road freight links collection points, storage facilities, ports and receiving sites. The cargo volume and delivery pattern help determine whether a consolidated movement or a dedicated load fits the requirement.",
+          "Confirm access at both ends before defining the schedule. Loading equipment, site opening hours, unloading arrangements and any border handovers belong in the transport brief alongside the delivery address.",
+        ],
+        points: [
+          "Collection and delivery addresses with site contacts",
+          "Consolidated cargo or dedicated load requirements",
+          "Loading access, receiving hours and unloading arrangements",
+        ],
+      },
+      {
+        title: "Ocean freight",
+        paragraphs: [
+          "Ocean freight planning connects the product’s packaging and volume with the intended port route. Full-container and shared-container options address different shipment sizes; the brief should also describe any temperature, moisture or handling requirements.",
+          "Coordinate the port movement with inland collection and delivery. Container loading, departure cut-offs, destination handling and cargo release all contribute to the overall timetable and the scope of the quotation.",
+        ],
+        points: [
+          "Origin and destination ports with inland delivery points",
+          "Container size or shared-container cargo volume",
+          "Packing, loading and destination handling scope",
+        ],
+      },
+      {
+        title: "Bulky cargo & consolidation",
+        paragraphs: [
+          "Bulky goods need a transport brief based on their actual packed dimensions. Size, weight, stacking restrictions and lifting access influence the space required and the handling sequence.",
+          "For consolidated consignments, identify every item and its destination before goods are grouped. Packaging, labelling and a clear packing list help connect collection, storage and delivery records as individual shipments move through the route.",
+        ],
+        points: [
+          "Item dimensions, weight and stacking restrictions",
+          "Packaging, labels and itemised packing list",
+          "Consolidation location and delivery sequence",
+        ],
+      },
+      {
+        title: "Urgent cargo",
+        paragraphs: [
+          "An urgent shipment needs a defined delivery priority, a cargo-ready time and a receiving contact who can accept the goods. These details help focus the conversation on the critical part of the journey.",
+          "Separate the required deadline from the proposed transport timetable. Collection, carrier departure, clearance and final delivery should have named responsibilities, with updates centred on the milestones that affect the receiving business.",
+        ],
+        points: [
+          "Cargo-ready time and required delivery deadline",
+          "Shipment dimensions, documents and receiving contact",
+          "Priority milestones and communication arrangements",
+        ],
+      },
+      {
+        title: "Project cargo",
+        paragraphs: [
+          "Project shipments bring equipment, materials and site schedules into one plan. Oversized or heavy items require accurate dimensions, weights, drawings and handling information before the route and delivery sequence are developed.",
+          "Connect the movement with the project’s installation timetable. Site access, receiving equipment, storage space and the order in which items are needed should be reflected in the logistics brief and each handover.",
+        ],
+        points: [
+          "Equipment list, drawings and packaged weights",
+          "Handling requirements and site access information",
+          "Delivery sequence and installation milestones",
+        ],
+      },
+      {
+        title: "Warehousing & safekeeping",
+        paragraphs: [
+          "Storage planning begins with the material, the expected holding period and the conditions it needs. Item identification, space requirements, access arrangements and the expected release schedule define a useful warehousing brief.",
+          "Safekeeping depends on a clear custody record. Record what is received, its condition, its location and who can authorise release. For valuable consignments, include the inspection and secure-transfer arrangements in the same discussion.",
+        ],
+        points: [
+          "Material description, storage conditions and duration",
+          "Receipt records, stock identification and authorised access",
+          "Release instructions, handling and onward delivery",
+        ],
+      },
+      {
+        title: "Customs clearance & port handling",
+        paragraphs: [
+          "Clearance planning brings the product description, commercial invoice, packing list and origin information together before the shipment reaches a border or port. The documents should identify the same goods, quantities and parties throughout the movement.",
+          "Agree who coordinates the declaration, cargo release and onward transport for the chosen route. Port handling, unloading and collection should form part of the delivery plan so the consignment moves from arrival to its receiving point with clear responsibilities.",
+        ],
+        points: [
+          "Invoice, packing list and product description",
+          "Origin records and route-specific supporting documents",
+          "Clearance responsibilities, release and port collection",
+        ],
+      },
+      {
+        title: "Third-party logistics & distribution",
+        paragraphs: [
+          "Distribution planning connects stock receipt, storage, order preparation and delivery. A single consignment and a recurring supply programme can use the same clear approach to item records, receiving requirements and handovers.",
+          "For ongoing third-party logistics, describe the order pattern, delivery locations and reporting needs. Agree how stock movements, dispatch records, exceptions and proof of delivery will be reconciled with the customer’s own records.",
+        ],
+        points: [
+          "Stock profile, order frequency and delivery locations",
+          "Picking, packing, labelling and dispatch requirements",
+          "Stock reporting, delivery records and reconciliation",
+        ],
+      },
+      {
+        title: "Supply-chain planning & shipment updates",
+        paragraphs: [
+          "A useful supply-chain discussion compares the product’s needs with the available route, shipment frequency and receiving schedule. Combining transport modes, consolidation and storage can help structure a movement around the business’s priorities.",
+          "Make shipment visibility practical by agreeing the reference numbers, milestones and update contacts at the start. Collection, departure, arrival, clearance and final handover provide a shared sequence for progress reports and early discussion of changes.",
+        ],
+        points: [
+          "Business priorities, route options and shipment frequency",
+          "Consignment references and agreed progress milestones",
+          "Update contacts and a process for reporting changes",
+        ],
+      },
+      {
+        title: "Commercial terms & customer support",
+        paragraphs: [
+          "A clear quotation connects the goods with the requested service scope. Product pricing, transport, storage and handling should be identifiable, with a stated timetable, delivery point and agreed payment terms.",
+          "Keep communication linked to one enquiry or consignment reference. Named contacts, accurate invoices and written records of agreed changes help the customer, supplier and logistics participants work from the same instructions.",
+        ],
+        points: [
+          "Defined quotation scope and commercial responsibilities",
+          "Agreed payment, acceptance and delivery terms",
+          "Named contacts, invoice details and change records",
+        ],
+      },
+      {
+        title: "Trading & logistics FAQs",
+        paragraphs: [
+          "How do I request a quote? Open a trading enquiry with the product or cargo description, quantity, origin, destination and requested schedule. Add available analysis for commodities, or packaged weights and dimensions for freight.",
+          "Can I discuss a single shipment or a recurring programme? Include the expected frequency and the result you need. A one-off delivery, ongoing supply relationship and wider distribution requirement each benefit from a clearly defined brief.",
+          "What should I prepare before collection? Bring together the material or cargo identification, available inspection records, packing information, pickup contact and receiving instructions. Use one reference to keep the quotation and subsequent shipment discussion connected.",
         ],
       },
     ],
     enquiry: [
-      "Buying or supplying, with a clear commodity description",
-      "Specification, quantity and proposed schedule",
-      "Origin, destination and delivery requirements",
-      "Available analysis and supporting documentation",
+      "Buying, supplying, freight, storage or distribution requirement",
+      "Commodity specification or cargo description, quantity and packaged dimensions",
+      "Origin, destination, delivery point and preferred schedule",
+      "Available analysis, origin records, invoice and packing information",
+      "Handling, storage, inspection and receiving requirements",
+      "Contact details and the requested quotation scope",
     ],
   },
   {

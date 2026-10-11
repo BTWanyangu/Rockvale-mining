@@ -73,11 +73,25 @@ export default function Commodities() {
                 to={`/commodities/${c.slug}`}
               >
                 <div className="commodity-card-visual">
-                  <Photo
-                    image={imageById(c.image)}
-                    contain={imageById(c.image).category === "Mineral guides"}
-                  />
-                  <span className="element">{c.symbol}</span>
+                  {typeof c.image === "number" ? (
+                    <Photo
+                      image={imageById(c.image)}
+                      contain={imageById(c.image).category === "Mineral guides"}
+                    />
+                  ) : (
+                    <img
+                      src={c.image.src}
+                      alt={c.image.alt}
+                      width={c.image.width}
+                      height={c.image.height}
+                      loading="lazy"
+                      decoding="async"
+                      className="photo photo-contain"
+                    />
+                  )}
+                  {typeof c.image === "number" && (
+                    <span className="element">{c.symbol}</span>
+                  )}
                 </div>
                 <div>
                   <span className="story-category">{c.category}</span>

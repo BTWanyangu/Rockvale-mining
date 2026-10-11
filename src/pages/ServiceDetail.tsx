@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { ArrowUpRight, Check } from "lucide-react";
+import { ArrowUpRight, Check, ChevronDown } from "lucide-react";
 import { services } from "../data/services";
 import { imageById, getServiceImages } from "../lib/images";
 import PageTransition from "../components/ui/PageTransition";
@@ -15,6 +15,17 @@ export default function ServiceDetail() {
   const { slug } = useParams();
   const service = services.find((s) => s.slug === slug);
   if (!service) return <NotFound />;
+  const isTrading = service.slug === "trading-and-distribution";
+  const sectionNavigation = (
+    <nav aria-label="On this page">
+      {service.sections.map((s, i) => (
+        <a key={s.title} href={`#section-${i + 1}`}>
+          {s.title}
+          <ArrowUpRight size={15} aria-hidden="true" />
+        </a>
+      ))}
+    </nav>
+  );
   return (
     <PageTransition>
       <SEO
@@ -22,6 +33,13 @@ export default function ServiceDetail() {
         description={service.intro}
         canonical={`/services/${service.slug}`}
       />
+      {isTrading && (
+        <link
+          rel="stylesheet"
+          href="/assets/styles/trading.css"
+          precedence="page"
+        />
+      )}
       <PageHero
         kicker={service.shortTitle}
         title={service.title}
@@ -30,19 +48,24 @@ export default function ServiceDetail() {
         parent={{ label: "What we do", to: "/services" }}
       />
       <section className="section">
-        <Container className="detail-layout">
+        <Container
+          className={`detail-layout${isTrading ? " trading-detail" : ""}`}
+        >
           <aside className="detail-sidebar">
             <span className="eyebrow">{service.group}</span>
             <h2>{service.shortTitle}</h2>
             <p>{service.overview}</p>
-            <nav aria-label="On this page">
-              {service.sections.map((s, i) => (
-                <a key={s.title} href={`#section-${i + 1}`}>
-                  {s.title}
-                  <ArrowUpRight size={15} aria-hidden="true" />
-                </a>
-              ))}
-            </nav>
+            {isTrading ? (
+              <details className="trading-jump-links">
+                <summary>
+                  Browse {service.sections.length} topics
+                  <ChevronDown size={18} aria-hidden="true" />
+                </summary>
+                {sectionNavigation}
+              </details>
+            ) : (
+              sectionNavigation
+            )}
             <LinkButton
               to={`/contact?type=${encodeURIComponent(service.shortTitle)}`}
               variant="dark"
@@ -58,7 +81,7 @@ export default function ServiceDetail() {
                 key={s.title}
               >
                 <span className="section-index">
-                  0{i + 1} / {service.group}
+                  {String(i + 1).padStart(2, "0")} / {service.group}
                 </span>
                 <h2>{s.title}</h2>
                 {s.paragraphs.map((para) => (

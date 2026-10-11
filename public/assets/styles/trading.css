@@ -1,0 +1,61 @@
+.trading-detail .detail-sidebar {
+  max-height: calc(100vh - 156px);
+  max-height: calc(100dvh - 156px);
+  overflow-y: auto;
+  padding-right: 12px;
+  scrollbar-width: thin;
+}
+
+.trading-detail .trading-jump-links {
+  margin: 24px 0;
+  border-top: 1px solid var(--line);
+}
+
+.trading-detail .trading-jump-links summary {
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 0;
+  font-size: 0.9rem;
+  letter-spacing: normal;
+}
+
+.trading-detail .trading-jump-links summary svg {
+  flex: none;
+  color: var(--gold-dark);
+}
+
+.trading-detail .trading-jump-links[open] summary svg {
+  transform: rotate(180deg);
+}
+
+.trading-detail .detail-sidebar nav {
+  display: block;
+  margin: 0 0 16px;
+}
+
+.trading-detail .detail-sidebar nav a:last-child {
+  border-bottom: 0;
+}
+
+.trading-detail .detail-section {
+  scroll-margin-top: 126px;
+}
+
+@media (max-width: 760px) {
+  .trading-detail .detail-sidebar {
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
+  }
+
+  .trading-detail .detail-section {
+    scroll-margin-top: 106px;
+  }
+}
+
+@media print {
+  .trading-detail .detail-sidebar {
+    max-height: none;
+    overflow: visible;
+  }
+}

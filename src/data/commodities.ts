@@ -3,7 +3,7 @@ export type Commodity = {
   symbol: string;
   name: string;
   category: "Metals & minerals" | "Energy";
-  image: number;
+  image: number | { src: string; alt: string; width: number; height: number };
   intro: string;
   uses: string[];
   chain: string[];
@@ -162,6 +162,40 @@ export const commodities: Commodity[] = [
       "Secure handling and documented commercial terms",
     ],
     source: "https://www.usgs.gov/centers/national-minerals-information-center",
+  },
+  {
+    slug: "rare-earths",
+    symbol: "REE",
+    name: "Rare Earths",
+    category: "Metals & minerals",
+    image: {
+      src: "/assets/commodities/rare-earths.svg",
+      alt: "The 17 rare earth elements: 15 lanthanides, scandium and yttrium.",
+      width: 1200,
+      height: 800,
+    },
+    intro:
+      "Rare earths are a group of 17 elements used across advanced manufacturing. Different members support permanent magnets, catalysts, glass, ceramics and lighting. A useful specification identifies the individual elements and the product form required by the customer.",
+    uses: [
+      "Neodymium-based permanent magnets for motors and generators",
+      "Catalysts and glass-polishing materials",
+      "Specialist glass, ceramics and optical applications",
+      "Lighting and display phosphors",
+      "Certain battery alloys and metallurgical applications",
+    ],
+    chain: [
+      "Mineral sources are evaluated for their rare earth composition and the requirements of the intended market.",
+      "Concentration and separation connect mineral feed with mixed or individual rare earth products.",
+      "Further refining and manufacturing produce specified oxides, metals, alloys or components for industrial use.",
+    ],
+    considerations: [
+      "Required elements, product form and intended application",
+      "Individual element distribution and the basis used to report total rare earth content",
+      "Purity, impurities, moisture and representative laboratory analysis",
+      "Origin, quantity, packaging and the delivery specification",
+    ],
+    source:
+      "https://www.usgs.gov/centers/national-minerals-information-center/rare-earths-statistics-and-information",
   },
   {
     slug: "energy-and-coal",

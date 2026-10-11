@@ -30,12 +30,28 @@ export default function CommodityDetail() {
         <Container className="commodity-detail">
           <div>
             <span className="element element-large">{c.symbol}</span>
-            <Photo
-              image={imageById(c.image)}
-              contain
-              className="commodity-detail-photo"
-            />
-            <p className="image-caption">{imageById(c.image).alt}</p>
+            {typeof c.image === "number" ? (
+              <Photo
+                image={imageById(c.image)}
+                contain
+                className="commodity-detail-photo"
+              />
+            ) : (
+              <img
+                src={c.image.src}
+                alt={c.image.alt}
+                width={c.image.width}
+                height={c.image.height}
+                loading="lazy"
+                decoding="async"
+                className="photo photo-contain commodity-detail-photo"
+              />
+            )}
+            <p className="image-caption">
+              {typeof c.image === "number"
+                ? imageById(c.image).alt
+                : c.image.alt}
+            </p>
           </div>
           <div className="prose">
             <span className="eyebrow">Applications & supply</span>

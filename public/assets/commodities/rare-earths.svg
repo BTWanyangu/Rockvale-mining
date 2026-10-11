@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title description">
+  <title id="title">Rare earth elements</title>
+  <desc id="description">The 17 rare earth elements: lanthanum, cerium, praseodymium, neodymium, promethium, samarium, europium, gadolinium, terbium, dysprosium, holmium, erbium, thulium, ytterbium, lutetium, scandium and yttrium. Tiles show each element’s atomic number, symbol and name.</desc>
+  <rect width="1200" height="800" fill="#142832"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="42" y="57" fill="#d6b985" font-size="19" font-weight="700" letter-spacing="4">ROCKVALLE RESOURCES</text>
+    <text x="42" y="125" fill="#ffffff" font-size="56" font-weight="700">Rare earth elements</text>
+    <text x="42" y="168" fill="#c7d2d8" font-size="26">15 lanthanides + scandium + yttrium</text>
+    <g transform="translate(42 210)" data-element="La">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#c5d0d6" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#c5d0d6" font-size="22">57</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">La</text>
+      <text x="88" y="135" fill="#c5d0d6" text-anchor="middle" font-size="18">Lanthanum</text>
+    </g>
+    <g transform="translate(230 210)" data-element="Ce">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#c5d0d6" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#c5d0d6" font-size="22">58</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Ce</text>
+      <text x="88" y="135" fill="#c5d0d6" text-anchor="middle" font-size="18">Cerium</text>
+    </g>
+    <g transform="translate(418 210)" data-element="Pr">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#d6b985" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#d6b985" font-size="22">59</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Pr</text>
+      <text x="88" y="135" fill="#d6b985" text-anchor="middle" font-size="18">Praseodymium</text>
+    </g>
+    <g transform="translate(606 210)" data-element="Nd">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#d6b985" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#d6b985" font-size="22">60</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Nd</text>
+      <text x="88" y="135" fill="#d6b985" text-anchor="middle" font-size="18">Neodymium</text>
+    </g>
+    <g transform="translate(794 210)" data-element="Pm">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#c5d0d6" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#c5d0d6" font-size="22">61</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Pm</text>
+      <text x="88" y="135" fill="#c5d0d6" text-anchor="middle" font-size="18">Promethium</text>
+    </g>
+    <g transform="translate(982 210)" data-element="Sm">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#c5d0d6" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#c5d0d6" font-size="22">62</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Sm</text>
+      <text x="88" y="135" fill="#c5d0d6" text-anchor="middle" font-size="18">Samarium</text>
+    </g>
+    <g transform="translate(42 384)" data-element="Eu">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#c5d0d6" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#c5d0d6" font-size="22">63</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Eu</text>
+      <text x="88" y="135" fill="#c5d0d6" text-anchor="middle" font-size="18">Europium</text>
+    </g>
+    <g transform="translate(230 384)" data-element="Gd">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#c5d0d6" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#c5d0d6" font-size="22">64</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Gd</text>
+      <text x="88" y="135" fill="#c5d0d6" text-anchor="middle" font-size="18">Gadolinium</text>
+    </g>
+    <g transform="translate(418 384)" data-element="Tb">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#d6b985" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#d6b985" font-size="22">65</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Tb</text>
+      <text x="88" y="135" fill="#d6b985" text-anchor="middle" font-size="18">Terbium</text>
+    </g>
+    <g transform="translate(606 384)" data-element="Dy">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#d6b985" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#d6b985" font-size="22">66</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Dy</text>
+      <text x="88" y="135" fill="#d6b985" text-anchor="middle" font-size="18">Dysprosium</text>
+    </g>
+    <g transform="translate(794 384)" data-element="Ho">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#c5d0d6" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#c5d0d6" font-size="22">67</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Ho</text>
+      <text x="88" y="135" fill="#c5d0d6" text-anchor="middle" font-size="18">Holmium</text>
+    </g>
+    <g transform="translate(982 384)" data-element="Er">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#c5d0d6" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#c5d0d6" font-size="22">68</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Er</text>
+      <text x="88" y="135" fill="#c5d0d6" text-anchor="middle" font-size="18">Erbium</text>
+    </g>
+    <g transform="translate(42 558)" data-element="Tm">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#c5d0d6" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#c5d0d6" font-size="22">69</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Tm</text>
+      <text x="88" y="135" fill="#c5d0d6" text-anchor="middle" font-size="18">Thulium</text>
+    </g>
+    <g transform="translate(230 558)" data-element="Yb">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#c5d0d6" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#c5d0d6" font-size="22">70</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Yb</text>
+      <text x="88" y="135" fill="#c5d0d6" text-anchor="middle" font-size="18">Ytterbium</text>
+    </g>
+    <g transform="translate(418 558)" data-element="Lu">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#c5d0d6" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#c5d0d6" font-size="22">71</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Lu</text>
+      <text x="88" y="135" fill="#c5d0d6" text-anchor="middle" font-size="18">Lutetium</text>
+    </g>
+    <g transform="translate(606 558)" data-element="Sc">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#d6b985" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#d6b985" font-size="22">21</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Sc</text>
+      <text x="88" y="135" fill="#d6b985" text-anchor="middle" font-size="18">Scandium</text>
+    </g>
+    <g transform="translate(794 558)" data-element="Y">
+      <rect width="176" height="162" rx="6" fill="#213b46" stroke="#d6b985" stroke-opacity="0.55"/>
+      <text x="16" y="30" fill="#d6b985" font-size="22">39</text>
+      <text x="88" y="95" fill="#ffffff" text-anchor="middle" font-size="60" font-weight="700">Y</text>
+      <text x="88" y="135" fill="#d6b985" text-anchor="middle" font-size="18">Yttrium</text>
+    </g>
+    <text x="1070" y="625" fill="#d6b985" text-anchor="middle" font-size="65" font-weight="700">17</text>
+    <text x="1070" y="659" fill="#c7d2d8" text-anchor="middle" font-size="23">ELEMENTS</text>
+    <path d="M42 756H1158" stroke="#d6b985" stroke-opacity="0.45"/>
+    <text x="42" y="786" fill="#c7d2d8" font-size="21">Magnets  /  Catalysts  /  Glass  /  Ceramics  /  Lighting</text>
+  </g>
+</svg>

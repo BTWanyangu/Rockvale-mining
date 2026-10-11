@@ -115,7 +115,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="commodity-list">
-            {commodities.slice(0, 6).map((c) => (
+            {commodities.map((c) => (
               <details key={c.slug}>
                 <summary>
                   <span className="element">{c.symbol}</span>
