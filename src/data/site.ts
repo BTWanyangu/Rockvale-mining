@@ -1,6 +1,6 @@
 export const site = {
-  name: "RockValle Resources",
-  shortName: "RockValle",
+  name: "RockVale Resources",
+  shortName: "RockVale",
   tagline: "Exploration · Mining · Trading",
   url: (import.meta.env.VITE_SITE_URL ?? "").replace(/\/$/, ""),
   email: (import.meta.env.VITE_CONTACT_EMAIL ?? "").trim(),

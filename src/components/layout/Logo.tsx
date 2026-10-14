@@ -15,7 +15,7 @@ export default function Logo({ onClick }: { onClick?: () => void }) {
         style={{ backgroundImage: `url(${logo?.src})` }}
       />
       <span className="brand-text">
-        <b>ROCKVALLE</b>
+        <b>ROCKVALE</b>
         <span>R E S O U R C E S</span>
       </span>
     </Link>
